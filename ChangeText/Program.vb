@@ -17,7 +17,7 @@ Module Program
     For Each file In txtFilesArray
       If (InStr(file, "index.aaa") > 0) Or (InStr(file, "custom.css") > 0) Or (InStr(file, "aaaa.js") > 0) Then
         'ChangeMulti173(file)
-        AddText(file, str1)
+        'AddText(file, str1)
         Count = Count + 1
       End If
       'If (InStr(file, "index11.") > 0) Or (InStr(file, "custom.css") > 0) Or (InStr(file, ".js") > 0) Then
